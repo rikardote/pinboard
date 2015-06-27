@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   end
  end
  root "pins#index"
+ get "pins/show" => 'pins#show', :as => :show
 end

@@ -11,6 +11,8 @@
  * file per style scope.
  *= require 'masonry/transitions'
  *= require_tree .
+ *= require bootstrap-modal-bs3patch
+ *= require bootstrap-modal
  *= require_self
  */
 @import "bootstrap-sprockets";
@@ -98,6 +100,7 @@ nav {
       line-height: 1.75;
       margin: 0;
     }
+    
   }
   .panel-footer {
     padding: 20px 35px;
