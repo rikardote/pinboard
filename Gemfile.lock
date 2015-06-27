@@ -42,8 +42,6 @@ GEM
       execjs
       json
     bcrypt (3.1.10)
-    bootstrap-modal-rails (2.2.5)
-      railties (>= 3.1)
     bootstrap-sass (3.3.5)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
@@ -202,7 +200,6 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_votable (~> 0.10.0)
-  bootstrap-modal-rails
   bootstrap-sass (~> 3.3.5)
   capistrano-rails
   coffee-rails (~> 4.1.0)
